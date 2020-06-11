@@ -1,0 +1,26 @@
+{
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.autoComplete.addBrackets": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pydocstyleEnabled": true,
+    "python.testing.nosetestsEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.lintOnSave": true,
+    "python.formatting.provider": "black",
+    "python.sortImports.args": [
+        "-rc",
+        "-w 100",
+        "-m 3"
+    ],
+}
