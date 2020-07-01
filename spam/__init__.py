@@ -1,1 +1,1 @@
-#from spam import system
+from .ext import system  # noqa

@@ -23,4 +23,5 @@
         "-w 100",
         "-m 3"
     ],
+    "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/spam-B4yf73BG-py3.8/bin/python",
 }

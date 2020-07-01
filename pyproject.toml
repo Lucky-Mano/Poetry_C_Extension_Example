@@ -1,7 +1,9 @@
 [tool.poetry]
-name = "template"
+name = "spam"
 version = "0.1.0"
 description = ""
+authors = ["Lucky-Mano <phatbowie@gmail.com>"]
+build = "build.py"
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -13,6 +15,7 @@ mypy = "*"
 pre-commit = "*"
 isort = "*"
 black = { version="*", allow-prereleases = true }
+pytest = "*"
 
 [tool.black]
 line-length = 100
