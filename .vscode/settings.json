@@ -12,7 +12,7 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.pydocstyleEnabled": true,
-    "python.testing.nosetestsEnabled": true,
+    "python.testing.nosetestsEnabled": false,
     "python.linting.pycodestyleEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
