@@ -3,7 +3,7 @@ services:
   pydev:
     image: dev/pydev
     build:
-      context: .
+      context: ./docker
     working_dir: /remote-dev
     command: sleep infinity
     volumes:

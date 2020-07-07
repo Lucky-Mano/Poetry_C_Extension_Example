@@ -20,7 +20,7 @@ static PyMethodDef SpamMethods[] = {
 
 static struct PyModuleDef spammodule = {PyModuleDef_HEAD_INIT, "ext", NULL, -1, SpamMethods};
 
-PyMODINIT_FUNC PyInit_spam(void)
+PyMODINIT_FUNC PyInit_ext(void)
 {
   return PyModule_Create(&spammodule);
 }

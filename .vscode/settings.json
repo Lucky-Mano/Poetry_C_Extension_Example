@@ -12,7 +12,7 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.pydocstyleEnabled": true,
-    "python.testing.nosetestsEnabled": true,
+    "python.testing.nosetestsEnabled": false,
     "python.linting.pycodestyleEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
@@ -23,4 +23,5 @@
         "-w 100",
         "-m 3"
     ],
+    "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/spam-B4yf73BG-py3.8/bin/python",
 }

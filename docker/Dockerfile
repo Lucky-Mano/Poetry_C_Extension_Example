@@ -1,6 +1,6 @@
 FROM python:slim
 
-LABEL maintainer ""
+LABEL maintainer "Lucky-Mano <phatbowie@gmail.com>"
 
 RUN apt-get update && apt-get upgrade -y \
   && apt-get install build-essential -y \
