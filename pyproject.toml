@@ -3,10 +3,13 @@ name = "spam"
 version = "0.1.0"
 description = ""
 authors = ["Lucky-Mano <phatbowie@gmail.com>"]
-build = "build.py"
+
+[tool.poetry.build]
+script = "build.py"
+generate-setup-file = true
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<4.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "*"

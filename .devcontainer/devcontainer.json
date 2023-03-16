@@ -5,38 +5,5 @@
   ],
   "service": "pydev",
   "workspaceFolder": "/remote-dev",
-  "extensions": [
-    "ms-python.python",
-    "ms-vscode.cpptools"
-  ],
-  "settings": {
-    "editor.tabSize": 2,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "files.eol": "\n",
-    "editor.formatOnSave": true,
-    "[python]": {
-      "editor.tabSize": 4,
-      "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-      }
-    },
-    "python.autoComplete.addBrackets": true,
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.linting.pydocstyleEnabled": true,
-    "python.testing.nosetestsEnabled": false,
-    "python.linting.pycodestyleEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
-    "python.linting.lintOnSave": true,
-    "python.formatting.provider": "black",
-    "python.sortImports.args": [
-      "-rc",
-      "-w 100",
-      "-m 3"
-    ],
-  },
   "shutdownAction": "stopCompose"
 }
