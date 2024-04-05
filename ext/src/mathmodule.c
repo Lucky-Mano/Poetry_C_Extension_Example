@@ -14,7 +14,7 @@ static PyObject *math_add(PyObject *self, PyObject *args)
 }
 
 static PyMethodDef MathMethods[] = {
-    {"add", math_add, METH_VARARGS, "Execute a shell command."},
+    {"add", math_add, METH_VARARGS, "Add two numbers and return the result."},
     {NULL, NULL, 0, NULL}};
 
 static struct PyModuleDef mathmodule = {PyModuleDef_HEAD_INIT, "cmath", NULL, -1, MathMethods};
