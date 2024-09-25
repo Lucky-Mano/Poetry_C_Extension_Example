@@ -1,27 +1,19 @@
 {
     "files.eol": "\n",
-    "editor.formatOnSave": true,
     "editor.tabSize": 2,
+    "editor.formatOnSave": true,
     "[python]": {
         "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
     },
-    "python.autoComplete.addBrackets": true,
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.linting.pydocstyleEnabled": true,
-    "python.testing.nosetestsEnabled": false,
-    "python.linting.pycodestyleEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
-    "python.linting.lintOnSave": true,
-    "python.formatting.provider": "black",
-    "python.sortImports.args": [
-        "-rc",
-        "-w 100",
-        "-m 3"
-    ],
-    "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/spam-B4yf73BG-py3.8/bin/python",
+    "ruff.nativeServer": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    }
 }
